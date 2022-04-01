@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="images/cars-logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Staatliches&display=swap" rel="stylesheet">
+    <title>The Cars Video Gallery</title>
+</head>
+<body>
+    <header class="clearfix">
+        <img id="logoimage" src="images/cars-logo.png">
+        <h2>The Cars Videos</h2>
+    </header>
+        <nav id="navlist">
+                <ul>
+                    <li><a href="#vid1">The Cars Rock Goes to College</a></li>
+                    <li><a href="#vid2">The Cars - Live 1984-1985</a></li>
+                    <li><a href="#vid3">The Cars - You Might Think (Live Aid 1985)</a></li>
+                    <li><a href="#vid4">The Cars: France - Live 1978</a></li>
+                    <li><a href="#vid5">The Cars - Bye Bye Love - Live 1978</a></li>
+                </ul>
+        </nav>
+        <main>
+
+        <section>
+        <article id="vid1">
+            <h4>The Cars Rock Goes to College</h4>
+            <div class="videowrapper">
+                <iframe src="https://www.youtube.com/embed/UvI1RhNvQro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        <div class="caption">
+            <p>On November 22, 1978, in the throes of promoting their self-titled debut album, The Cars played at the University of Sussex in Brighton, England. The concert was aired on BBC music television program Rock Goes To College on January 13, 1979.</p>
+        </div>
+        </article>
+        <article id="vid2">
+            <h4>The Cars - Live 1984-1985</h4>
+            <div class="videowrapper">
+                <iframe width="1068" height="601" src="https://www.youtube.com/embed/pgT2Hb25Xc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="caption">
+                <p>From my Betamax Collection  (1.985)</p>
+                <p>Hello Again - It's Not The Night - Touch & Go - Good Times Roll - Jimmy Jimmy - Moving In Stereo
+                    Just What I Needed - A Dream Away - Cruiser - Drive - You Might Think - Magic - Let's Go - Heartbeat City
+                    Ric Ocasek -Vocals,Guitar. * Benjamin Orr Vocals,Bass * Elliot Easton, Guitar,Vocals * Greg Hawkes, Keyboards,-vocals * David Robinson, Drums * Executive Producer .Elliot Roberts</p>
+            </div>
+        </article>
+        <article id="vid3">
+            <h4>The Cars - You Might Think (Live Aid 1985)</h4>
+            <div class="videowrapper">
+                <iframe width="821" height="601" src="https://www.youtube.com/embed/n_37lgwAxPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="caption">
+                <p>The Cars performing at Live Aid in front of 100,000 people in the John F. Kennedy Stadium, Philadelphia USA on the 13th July, 1985. The event was organised by Sir Bob Geldof and Midge Ure to raise funds for the Ethiopian famine disaster. Broadcast across the world via one of the largest satellite link-ups of all time, the concerts were seen by around 40% of the global population.</p>
+            </div>
+        </article>
+        <article id="vid4">
+            <h4>The Cars: France - Live 1978</h4>
+            <div class="videowrapper">
+                <iframe width="801" height="601" src="https://www.youtube.com/embed/UIUqaaZz-8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="caption">
+                <p>From Rock Goes to College</p>
+            </div>
+        </article>
+        <article id="vid5">
+            <h4>The Cars - Bye Bye Love - Live 1978</h4>
+            <div class="videowrapper">
+                <iframe width="801" height="601" src="https://www.youtube.com/embed/msAcTMKMSKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="caption">
+                <p>Empire Theater, Paris, France, Record date: 27 November 1978.</p>
+                <p>The first three songs of a *presumably* seven song set for a 3 December 1978 airing on "Chorus" television show.</p>
+            </div>
+        </article>
+    </section>
+    <div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button></div>
+    <script>
+        // When the user scrolls down 800px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+     
+         function scrollFunction() {
+           if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+             document.getElementById("cornerBtn").style.display = "block";
+           } else {
+             document.getElementById("cornerBtn").style.display = "none";
+           }
+         }
+     
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+     </script>
+    </main>
+    <footer>
+        <p>&copy; 2022 Bradford Torpey</p>
+    </footer>
+    
+</body>
+</html>
